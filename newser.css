@@ -56,7 +56,24 @@ a{
     background-color: #3498db;
     color: #fff;
 }
+.che{
+    margin-top: 50px;
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border: 2px solid #39db34;
+    color: #39db34;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
 
+/* Hover effect */
+.che:hover {
+    background-color: #39db34;
+    color: #fff;
+}
 
   
 body p{
