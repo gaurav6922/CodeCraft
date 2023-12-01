@@ -11,7 +11,7 @@ cap = cv2.VideoCapture(0)
 cap.set(3, 640)
 cap.set(4, 480)
 
-model = YOLO("/Users/gaurav/l_version_1_10.pt")
+model = YOLO("l_version_1_10.pt")
 
 classNames = ["fake", "real"]
 
